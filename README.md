@@ -84,10 +84,6 @@ aşağıdaki sitelerden kod blokları kullanabilirsiniz
 **Twitter**: [Twitter](https://twitter.com/CemKaanGuru)
 
 Web şablonu yapmak ve güncel tutmak için çok uğraştım ...
+Lütfen yıldız eklemeyi unutmayın ve [kaanguru](https://github.com/kaanguru) hesabını takip edin.
 
-![Donate LiteCoin](https://raw.githubusercontent.com/scottycc/coinwidget.com/master/icon_litecoin.png)
-**Bağış için LiteCoin Adresim:** `LaF4Kjh7MYh7yYBjBX2CEPjGhZ614ffMh8`
-
-**Bağış için Avax Adresim:**
-
-`X-avax13txmctla8703kurvrqkv9fp73g7s7emgs3u5t7`
+[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/netlesh/astro-business-template)
