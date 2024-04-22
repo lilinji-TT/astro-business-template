@@ -16,7 +16,7 @@
 
 [Örnek Komponent (BasicNavbar)](https://github.com/netlesh/astro-business-template/blob/main/src/components/navbars/BasicNavbar.astro#L1)
 
---------
+---
 
 **Dökümanlar**💭
 
@@ -29,7 +29,7 @@
 ![template](./Screenshot.jpg)
 Örnek Ekran görüntüsü
 
---------
+---
 
 ## Temel Ayarlar
 
@@ -53,7 +53,7 @@ src\layouts\Layout.astro
 
 ### Ikonlar
 
-<https://icon-sets.iconify.design/>
+<https://lucide-astro.dzeio.com/>
 
 ### Tailwind snippets
 
@@ -69,17 +69,17 @@ aşağıdaki sitelerden kod blokları kullanabilirsiniz
 
 <https://stackdiary.com/tailwind-components-ui-kits/>
 
---------
+---
 
 ## İletişim 📧
 
 🕸 [cemkaan.com](www.cemkaan.com)
 
 **StackOverFlow**:
- [@cem-kaan](https://stackoverflow.com/users/11993949/cem-kaan "Cem Kaan on stackoverflow")
+[@cem-kaan](https://stackoverflow.com/users/11993949/cem-kaan "Cem Kaan on stackoverflow")
 
 **LinkedIn**:
-  [@cemkaan](https://www.linkedin.com/in/cemkaan/ "Cem Kaan on LinkedIn")
+[@cemkaan](https://www.linkedin.com/in/cemkaan/ "Cem Kaan on LinkedIn")
 
 **Twitter**: [Twitter](https://twitter.com/CemKaanGuru)
 

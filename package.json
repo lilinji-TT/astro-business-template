@@ -22,16 +22,16 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/tailwind": "^1.0.0",
-    "@tailwindcss/typography": "^0.5.4",
-    "astro": "^1.0.8",
-    "autoprefixer": "^10.4.8",
-    "daisyui": "^2.24.0",
-    "prettier-plugin-astro": "^0.5.3"
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.12",
+    "astro": "^4.6.3",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.10.2",
+    "prettier-plugin-astro": "^0.13.0"
   },
   "dependencies": {
-    "astro-icon": "^0.7.3",
-    "urlencode": "^1.1.0"
+    "lucide-astro": "^0.372.0",
+    "urlencode": "^2.0.0"
   }
 }
