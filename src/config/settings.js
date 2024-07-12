@@ -1,8 +1,8 @@
 export default {
-	title: `ŞİRKET Sitesi`,
+	title: `Cheng Ruo`,
 	description: `Temiz bir web şablonu`,
 	url: `https://cemkaan.com`,
 	name: `Şirket`,
 	adres: `Voyvoda Caddesi (Bankalar Caddesi) No: 35-37 Karaköy Beyoğlu İstanbul`,
-	analytics: "" // analytics code
+	analytics: "", // analytics code
 };

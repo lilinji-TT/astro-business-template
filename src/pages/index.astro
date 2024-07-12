@@ -1,26 +1,29 @@
 ---
-import Layout from '~/layouts/Layout.astro';
+import Layout from "~/layouts/Layout.astro";
 
-import BasicFeatures from '~/components/features/BasicFeatures.astro';
-import StepsFeatures from '~/components/features/StepsFeatures.astro';
-import HeroWithImage from '~/components/heros/HeroWithImage.astro';
-import CenteredHero from '~/components/heros/CenteredHero.astro';
-import CarouselWithButtons from '~/components/carousels/CarouselWithButtons.astro';
+import CarouselWithButtons from "~/components/carousels/CarouselWithButtons.astro";
+import BasicFeatures from "~/components/features/BasicFeatures.astro";
+import StepsFeatures from "~/components/features/StepsFeatures.astro";
+import CenteredHero from "~/components/heros/CenteredHero.astro";
+import HeroWithImage from "~/components/heros/HeroWithImage.astro";
 const HeroWithImageText = ` 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-`
+我们致力于生产高品质的保温杯，带给您温暖与关爱的每一刻。我们的产品采用最先进的保温技术，确保您的饮品在任何时候都能保持理想的温度。无论是在工作、学习，还是户外运动，我们的保温杯都是您的最佳伴侣。
+`;
 ---
 
 <Layout title="Astro + Tailwind CSS" description="page desc">
 	<main>
 		<CarouselWithButtons />
-		<HeroWithImage title="Hi" text={HeroWithImageText} image="/images/hero.jpg"/>
-		<div class="divider"></div> 
+		<HeroWithImage
+			title="您好"
+			text={HeroWithImageText}
+			image="/images/baowenbei1.jpg"
+		/>
+		<div class="divider"></div>
 		<BasicFeatures />
-		<div class="divider divide-secondary"></div> 
+		<div class="divider divide-secondary"></div>
 		<StepsFeatures />
-		<div class="divider"></div> 
+		<div class="divider"></div>
 		<CenteredHero title="Hi you all" />
 	</main>
 </Layout>

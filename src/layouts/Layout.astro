@@ -1,11 +1,11 @@
 ---
+import settings from "~/config/settings.js";
 import "~/styles/base.css";
 import "~/styles/typography.css";
-import settings from "~/config/settings.js";
 
-import BasicNavbar from "~/components/navbars/BasicNavbar.astro";
-import Footer from "~/components/footers/BasicFooter.astro";
 import BaseHead from "~/components/BaseHead.astro";
+import Footer from "~/components/footers/BasicFooter.astro";
+import BasicNavbar from "~/components/navbars/BasicNavbar.astro";
 
 export interface Props {
 	title: string;
@@ -14,17 +14,17 @@ export interface Props {
 	image?: string;
 }
 
-const title = Astro.props.title || settings.title;
-const description = Astro.props.description || settings.description;
+const title = settings.title;
+const description = settings.description;
 ---
 
 <html lang="tr" data-theme="corporate">
 	<BaseHead title={title} description={description} />
 	<body>
 		<BasicNavbar>
-			<li><a href="/urunler">Ürünler</a></li>
-			<li><a href="/hakkimizda">Hakkımızda</a></li>
-			<li><a href="/iletisim">İletişim</a></li>
+			<li><a href="/urunler">产品</a></li>
+			<li><a href="/hakkimizda">关于我们</a></li>
+			<li><a href="/iletisim">联系我们</a></li>
 		</BasicNavbar>
 		<slot />
 		<Footer />
